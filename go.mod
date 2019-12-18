@@ -8,7 +8,9 @@ require (
 	github.com/go-logfmt/logfmt v0.4.0 // indirect
 	github.com/gogo/protobuf v1.3.1
 	github.com/gorilla/mux v1.7.3
+	github.com/jteeuwen/go-bindata v3.0.7+incompatible // indirect
 	github.com/moul/http2curl v1.0.0
+	github.com/pauln/go-datefmt v1.0.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/sirupsen/logrus v1.4.2
