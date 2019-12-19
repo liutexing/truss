@@ -26,9 +26,9 @@ import (
 var DefaultConfig Config
 
 func init() {
-	flag.StringVar(&DefaultConfig.DebugAddr, "debug.addr", ":5060", "Debug and metrics listen address")
-	flag.StringVar(&DefaultConfig.HTTPAddr, "http.addr", ":5050", "HTTP listen address")
-	flag.StringVar(&DefaultConfig.GRPCAddr, "grpc.addr", ":5040", "gRPC (HTTP) listen address")
+	flag.StringVar(&DefaultConfig.DebugAddr, "debug.addr", ":23688", "Debug and metrics listen address")
+	flag.StringVar(&DefaultConfig.HTTPAddr, "http.addr", ":8000", "HTTP listen address")
+	flag.StringVar(&DefaultConfig.GRPCAddr, "grpc.addr", ":5000", "gRPC (HTTP) listen address")
 
 	// Use environment variables, if set. Flags have priority over Env vars.
 	if addr := os.Getenv("DEBUG_ADDR"); addr != "" {
